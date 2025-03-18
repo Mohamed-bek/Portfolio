@@ -243,7 +243,7 @@ const ProjectContent = ({ projectId }) => {
         </div>
       </div>
 
-      <div className="h-[60dvh] bg-primary py-0">
+      <div className="h-fit bg-primary pt-3 pb-10">
         <div className="w-fit pr-28 relative mx-auto">
           <Link
             to={`/project/${nextProject?.id}`}

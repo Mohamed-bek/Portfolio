@@ -4,6 +4,7 @@ import MouseFollower from "./components/MouseFollwer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProjectDetailsPage from "./components/Portfolio";
 import Main from "./pages/Main";
+import Footer from "./components/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,7 @@ function App() {
                 element={<ProjectDetailsPage />}
               />
             </Routes>
+            <Footer />
           </>
         )}
       </div>

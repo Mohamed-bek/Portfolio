@@ -26,7 +26,6 @@ export default function Main() {
         <About />
 
         <Contact />
-        <Footer />
       </div>
     </>
   );
