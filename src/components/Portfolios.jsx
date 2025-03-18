@@ -78,7 +78,7 @@ const Portfolio = () => {
           </div>
           {activeProjectId !== null && (
             <div
-              className="fixed w-[650px] h-[420px] z-40 overflow-hidden border border-tertiary rounded-md shadow-lg pointer-events-none"
+              className="fixed cursor-pointer w-[650px] h-[420px] z-40 overflow-hidden border border-tertiary rounded-md shadow-lg pointer-events-none"
               style={previewStyle}
             >
               <div className="relative h-full transition-all duration-300 ease-in-out overflow-hidden">
